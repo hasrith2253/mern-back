@@ -17,9 +17,11 @@ const allowedOrigins = (process.env.CLIENT_URL || "http://127.0.0.1:5174")
   .map((origin) => origin.trim())
   .filter(Boolean);
 
+console.log("Allowed Origins:", allowedOrigins);
+
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: true,
     credentials: true,
   })
 );
