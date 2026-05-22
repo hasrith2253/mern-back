@@ -1,0 +1,19 @@
+
+> new-mern-blog-backend@1.0.0 dev
+> node --watch src/server.js
+
+◇ injected env (5) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+MongoDB connected
+API listening on http://localhost:5000
+Restarting 'src/server.js'
+◇ injected env (5) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+MongoDB connected
+API listening on http://localhost:5000
+Restarting 'src/server.js'
+◇ injected env (5) from .env // tip: ⌘ enable debugging { debug: true }
+MongoDB connected
+API listening on http://localhost:5000
+Restarting 'src/server.js'
+◇ injected env (5) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+MongoDB connected
+API listening on http://localhost:5000
